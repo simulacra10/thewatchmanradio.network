@@ -1,0 +1,20 @@
+{
+  "name": "twrn-express-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon  -e './public/*' server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "mogoose": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
